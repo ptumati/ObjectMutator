@@ -1,0 +1,32 @@
+{
+  "name": "objectmutator",
+  "version": "0.1.0",
+  "description": "A package to allow mutating javascript objects at the property level (for use in testing, genetic algorithms, etc.)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">=8.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptumati/ObjectMutator.git"
+  },
+  "keywords": [
+    "combinatorics",
+    "mutations",
+    "property",
+    "level"
+  ],
+  "author": "Pavan Tumati",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ptumati/ObjectMutator/issues"
+  },
+  "homepage": "https://github.com/ptumati/ObjectMutator#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}

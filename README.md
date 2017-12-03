@@ -1,7 +1,7 @@
 Object Mutator
 =========
 
-A small library that lets you generate mutations of a Javascript object at the property level
+A small library that lets you generate mutations of a Javascript object at the property level.  (See http://www.tumati.com/objectmutator-js-generating-all-or-some-subset-of-combinations-an-object-at-the-property-or-key-value-pair-level/.)
 
 
 ## Usage
@@ -33,7 +33,10 @@ A small library that lets you generate mutations of a Javascript object at the p
         - 'c' ranges from -1 to 3, stepping by 1
         - 'd' remains the same in every object as it was passed in using the chromosome parameter
 
-    (* 'a' eventually gets filtered by the 'cullFunction', where the values that were generated with a from 5 to 7 are dropped.  This is just an example!  The cullFunction is useful for making sure that, in a new generation of objects, that certain objects are removed because of invalid relationships between properties.)
+    (* 'a' eventually gets filtered by the 'cullFunction', where the values that were generated 
+    with a from 5 to 7 are dropped.  This is just an example!  The cullFunction is useful for making 
+    sure that, in a new generation of objects, that certain objects are removed because of invalid 
+    relationships between properties.)
 
 ## Tests
 
